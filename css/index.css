@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+input[type='button']{
+    color: black;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 1em;
+    transition: .4s;
+}
+input[type='button']:hover{
+    background-color: rgb(224, 170, 68);
+    transition: .2s;
+}
+input[type='text']{
+    color: black;
+    font-weight: bold;
+}
+h1{ text-align: center; padding-bottom: .5em;}
+body{
+    background-color: rgb(34, 33, 33);
+}
+.bigcontainer{
+    margin: 0 auto;
+    width: 90%;
+    background-color: rgb(34, 33, 33);
+}
+a, a:visited{
+    color: white;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    border-radius: .15em;
+    transition: .4s;
+}
+img:hover{
+    transition: .4s;
+    transform: scale(1.1, 1.1);
+}
+/* ======x======x======NAVBAR=====x======x====== */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    gap: .5em;
+    padding: 1em;
+}
+.navbar>div{
+    border-radius: .15em;
+    padding: 1em 2em;
+    transition: .4s;
+    background-color: #1d9946;
+}
+.navbar>div:hover{
+    transition: .4s;
+    transform: scale(1.1, 1.1);
+    background-color: #3ab362;
+}
+/* ======x======x======>Zona buscar y resultados búsqueda=====x======x====== */
+#nav{
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    gap: .5em;
+    padding: 1em;
+}
+#nav>#screen, #search{
+    width: 50em;
+    padding: 1em;
+    border-radius: .15em;
+    border: none;
+    outline: none;
+}
+#nav>#search{
+    border-radius: 2em;
+}
+/* ======x======Resultados búsqueda======x====== */
+#wrapper-search{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    gap: .5em;
+    padding: 1em;
+}
+#wrapper-search>div{
+    text-align: center;
+    padding: 1em;
+    background-color: #484386;
+    border-radius: .15em;
+}
+/* ======x======x======Libros temática=====x======x====== */
+.wrapper{
+    padding: 1em;
+}
+.wrapper>div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+    justify-items: center;
+    gap: 1em;       
+    text-align: center;
+    padding: 1em;
+    box-shadow: 0em 0em 1em 0em rgb(61, 61, 61);
+}
+.wrapper>h3{
+    padding-bottom: .5em;
+    font-size: 2em;
+    text-align: center;
+}
+/* ======x======Estilos cada libro======x======x */
+#wrapper-2{
+    width: 100%;
+    background-color: #484386;
+    border-radius: .25em;
+}
+#wrapper-2>h3,img{
+    padding: .5em;
+}
+/* ======x======PREV/NEXT======x======x */
+.wrapper>.bts{
+    display: flex;
+    border: none;
+    box-shadow: none;
+}
+.wrapper>.bts>input[type=button]{
+    border: none;
+    outline: none;
+    border-radius: .15em;
+    padding: 1em 2em;
+}
+/* ======x======x======FOOTER=====x======x====== */
+footer{
+    padding: 1em;
+    text-align: center;
+}
+#top{
+    position: fixed;
+    margin-left: 80%;
+    text-align: center;
+    width: 2em;
+    padding: 1em;
+    background-color: red;
+    border-radius: 2em;
+}

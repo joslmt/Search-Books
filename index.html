@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/img/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/spinner.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+    <title>Books</title>
+</head>
+<body>
+    <div class="bigcontainer">
+        <div class="navbar">
+             <div><a href="#Fantasy">Fantasy &#129497</a></div>
+             <div><a href="#Fiction">Fiction &#128760</a></div>
+             <div><a href="#Poetry">Poetry &#9997</a></div>
+             <div><a href="#Romance">Romance &#128152</a></div>
+             <div><a href="#Art">Art &#127912</a></div>
+             <div><a href="#Crime">Crime &#128373</a></div>
+             <div><a href="#Anthologies">Anthologies &#128218</a></div>
+             <div><a href="#Business">Business &#128188 </a></div>
+             <div><a href="#Cooking">Cooking &#129361</a></div>
+        </div>
+        <div id="top"><a href="#">&#128640</a></div>      
+        <h1>Google Books API</h1>
+        <div id="nav">
+            <input type="text" name="" 
+                placeholder="Búsqueda por palabra clave, título, autor o ISBN ..." 
+                id="screen">
+            <input type="button" value="Search" id="search">
+        </div>
+        <div id="wrapper-search"></div>
+        <div class="wrapper">
+            <h3 id="Fantasy">Fantasy</h3>
+            <div class="wrapperfantasy">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back"   onclick="back('fantasy')">
+                <input type="button" value="Next  &gt;"   onclick="fward('fantasy')">
+            </div>
+            <h3 id="Fiction">Fiction</h3>
+            <div class="wrapperfiction">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back"   onclick="back('fiction')">
+                <input type="button" value="Next  &gt;"   onclick="fward('fiction')">
+            </div>
+            <h3 id="Poetry">Poetry</h3>
+            <div class="wrapperpoetry">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back"   onclick="back('poetry')">
+                <input type="button" value="Next  &gt;"   onclick="fward('poetry')">
+            </div>
+            <h3 id="Romance">Romance</h3>
+            <div class="wrapperromance">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back"   onclick="back('romance')">
+                <input type="button" value="Next  &gt;"   onclick="fward('romance')">
+            </div>
+            <h3 id="Art">Art</h3>
+            <div class="wrapperart">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back"   onclick="back('art')">
+                <input type="button" value="Next  &gt;"   onclick="fward('art')">
+            </div>
+            <h3 id="Crime">Crime</h3>
+            <div class="wrappercrime">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back"   onclick="back('crime')">
+                <input type="button" value="Next  &gt;"   onclick="fward('crime')">
+            </div>
+            <h3 id="Anthologies">Anthologies</h3>
+            <div class="wrapperanthologies">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back"   onclick="back('anthologies')">
+                <input type="button" value="Next  &gt;"   onclick="fward('anthologies')">
+            </div>
+            <h3 id="Business">Business</h3>
+            <div class="wrapperbusiness">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back"   onclick="back('business')">
+                <input type="button" value="Next  &gt;"   onclick="fward('business')">
+            </div>
+            <h3 id="Cooking">Cooking</h3>
+            <div class="wrappercooking">
+            </div>
+            <div class="bts">
+                <input type="button" value="&lt;  Back" onclick="back('cooking')">
+                <input type="button" value="Next  &gt;"       onclick="fward('cooking')">
+            </div>
+        </div>
+        <footer>
+            <p>&copy Copyright 2020 - Template creado por joslmt/github</p>
+        </footer>
+    </div>
+    <script src="/js/app.js"></script>
+</body>
+</html>

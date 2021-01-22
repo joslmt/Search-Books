@@ -1,0 +1,43 @@
+@media( max-width: 1150px){
+    .navbar{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: .5em;
+        text-align: center;
+    }
+    #nav>#screen, #search{
+        width: 25em;
+    }
+    #wrapper-search>div{
+        width: 100%;
+    }
+    #wrapper-search{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media( max-width: 550px){
+    #nav>#screen, #search{
+        width: 20em;
+    }
+    #wrapper-search{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    #wrapper-search>div{
+        width: 100%;
+    }
+    .wrapper>div{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+@media( max-width: 350px){
+    #nav>#screen, #search{
+        width: 10em;
+    }
+    #wrapper-search{
+        grid-template-columns: 1fr;
+    }
+    #wrapper-search>div{
+        width: 100%;
+    }
+}
